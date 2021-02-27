@@ -1,0 +1,113 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Flaring Abyss [Bev.]\\features\\soul_crystal_ore_feature.json",
+	"file_type": "feature",
+	"format_version": 1,
+	"file_uuid": "e6e89c06_4d54_4bfb_8c00_425781b9c237",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:ore_feature": {
+						"description": {
+							"identifier": "flabyss:soul_crystal_ore_feature"
+						},
+						"count": 4,
+						"places_block": {
+							"name": "flabyss:soul_diamond_ore"
+						},
+						"may_replace": [
+							{
+								"name": "minecraft:soul_sand"
+							}
+						]
+					}
+				},
+				"key": "minecraft:ore_feature",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flabyss:soul_crystal_ore_feature"
+							},
+							"count": 4,
+							"places_block": {
+								"name": "flabyss:soul_diamond_ore"
+							},
+							"may_replace": [
+								{
+									"name": "minecraft:soul_sand"
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flabyss:soul_crystal_ore_feature"
+						}
+					},
+					{
+						"data": "4",
+						"key": "count"
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flabyss:soul_crystal_ore_feature"
+							},
+							"count": 4,
+							"places_block": {
+								"name": "flabyss:soul_diamond_ore"
+							},
+							"may_replace": [
+								{
+									"name": "minecraft:soul_sand"
+								}
+							]
+						},
+						"key": "places_block",
+						"is_minified": true,
+						"children": {
+							"name": "flabyss:soul_diamond_ore"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flabyss:soul_crystal_ore_feature"
+							},
+							"count": 4,
+							"places_block": {
+								"name": "flabyss:soul_diamond_ore"
+							},
+							"may_replace": [
+								{
+									"name": "minecraft:soul_sand"
+								}
+							]
+						},
+						"key": "may_replace",
+						"children": [
+							{
+								"open": [
+									{
+										"name": "minecraft:soul_sand"
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"name": "minecraft:soul_sand"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

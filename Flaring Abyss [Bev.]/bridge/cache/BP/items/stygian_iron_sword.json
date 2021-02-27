@@ -1,0 +1,779 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Flaring Abyss [Bev.]\\items\\stygian_iron_sword.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "40aa0383_ef3a_4ea5_a214_01d4a99560f5",
+	"file_version": 4,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"identifier": "flabyss:stygian_iron_sword",
+							"category": "equipment"
+						},
+						"components": {
+							"minecraft:max_stack_size": 1,
+							"minecraft:use_duration": 3600,
+							"minecraft:hand_equipped": true,
+							"minecraft:durability": {
+								"max_damage": 250,
+								"damage_chance": 1
+							},
+							"minecraft:mining_speed": 1.5,
+							"minecraft:damage": 6,
+							"minecraft:enchantable": {
+								"value": 14,
+								"slot": "sword"
+							},
+							"minecraft:can_destroy_in_creative": false,
+							"minecraft:digger": {
+								"use_efficiency": true,
+								"destroy_speeds": [
+									{
+										"block": "minecraft:web",
+										"speed": 15
+									},
+									{
+										"block": "minecraft:bamboo",
+										"speed": 10
+									}
+								]
+							},
+							"minecraft:weapon": {
+								"on_hurt_entity": {
+									"event": "on_hurt_entity",
+									"target": "target"
+								}
+							},
+							"minecraft:icon": {
+								"texture": "stygian_iron_sword"
+							},
+							"minecraft:render_offsets": "tools",
+							"minecraft:display_name": {
+								"value": "Stygian Iron Sword"
+							},
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							}
+						},
+						"events": {
+							"on_hurt_entity": {
+								"sequence": [
+									{
+										"run_command": {
+											"command": [
+												"effect @s wither 5 1 true"
+											]
+										}
+									},
+									{
+										"damage": {
+											"type": "durability",
+											"amount": 1,
+											"target": "self"
+										}
+									}
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flabyss:stygian_iron_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_damage": 250,
+									"damage_chance": 1
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 6,
+								"minecraft:enchantable": {
+									"value": 14,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								},
+								"minecraft:weapon": {
+									"on_hurt_entity": {
+										"event": "on_hurt_entity",
+										"target": "target"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "stygian_iron_sword"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:display_name": {
+									"value": "Stygian Iron Sword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							},
+							"events": {
+								"on_hurt_entity": {
+									"sequence": [
+										{
+											"run_command": {
+												"command": [
+													"effect @s wither 5 1 true"
+												]
+											}
+										},
+										{
+											"damage": {
+												"type": "durability",
+												"amount": 1,
+												"target": "self"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "flabyss:stygian_iron_sword",
+							"category": "equipment"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flabyss:stygian_iron_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_damage": 250,
+									"damage_chance": 1
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 6,
+								"minecraft:enchantable": {
+									"value": 14,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								},
+								"minecraft:weapon": {
+									"on_hurt_entity": {
+										"event": "on_hurt_entity",
+										"target": "target"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "stygian_iron_sword"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:display_name": {
+									"value": "Stygian Iron Sword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							},
+							"events": {
+								"on_hurt_entity": {
+									"sequence": [
+										{
+											"run_command": {
+												"command": [
+													"effect @s wither 5 1 true"
+												]
+											}
+										},
+										{
+											"damage": {
+												"type": "durability",
+												"amount": 1,
+												"target": "self"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"data": "1",
+								"key": "minecraft:max_stack_size"
+							},
+							{
+								"data": "3600",
+								"key": "minecraft:use_duration"
+							},
+							{
+								"data": "true",
+								"key": "minecraft:hand_equipped"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 250,
+										"damage_chance": 1
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 6,
+									"minecraft:enchantable": {
+										"value": 14,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:weapon": {
+										"on_hurt_entity": {
+											"event": "on_hurt_entity",
+											"target": "target"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "stygian_iron_sword"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Stygian Iron Sword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:durability",
+								"is_minified": true,
+								"children": {
+									"max_damage": 250,
+									"damage_chance": 1
+								}
+							},
+							{
+								"data": "1.5",
+								"key": "minecraft:mining_speed"
+							},
+							{
+								"data": "6",
+								"key": "minecraft:damage"
+							},
+							{
+								"key": "minecraft:enchantable",
+								"is_minified": true,
+								"children": {
+									"value": 14,
+									"slot": "sword"
+								}
+							},
+							{
+								"data": "false",
+								"key": "minecraft:can_destroy_in_creative"
+							},
+							{
+								"key": "minecraft:digger",
+								"is_minified": true,
+								"children": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 250,
+										"damage_chance": 1
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 6,
+									"minecraft:enchantable": {
+										"value": 14,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:weapon": {
+										"on_hurt_entity": {
+											"event": "on_hurt_entity",
+											"target": "target"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "stygian_iron_sword"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Stygian Iron Sword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:weapon",
+								"children": [
+									{
+										"open": {
+											"on_hurt_entity": {
+												"event": "on_hurt_entity",
+												"target": "target"
+											}
+										},
+										"key": "on_hurt_entity",
+										"is_minified": true,
+										"children": {
+											"event": "on_hurt_entity",
+											"target": "target"
+										}
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 250,
+										"damage_chance": 1
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 6,
+									"minecraft:enchantable": {
+										"value": 14,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:weapon": {
+										"on_hurt_entity": {
+											"event": "on_hurt_entity",
+											"target": "target"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "stygian_iron_sword"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Stygian Iron Sword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:icon",
+								"is_minified": true,
+								"children": {
+									"texture": "stygian_iron_sword"
+								}
+							},
+							{
+								"data": "tools",
+								"key": "minecraft:render_offsets"
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 250,
+										"damage_chance": 1
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 6,
+									"minecraft:enchantable": {
+										"value": 14,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:weapon": {
+										"on_hurt_entity": {
+											"event": "on_hurt_entity",
+											"target": "target"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "stygian_iron_sword"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Stygian Iron Sword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:display_name",
+								"is_minified": true,
+								"children": {
+									"value": "Stygian Iron Sword"
+								}
+							},
+							{
+								"open": {
+									"minecraft:max_stack_size": 1,
+									"minecraft:use_duration": 3600,
+									"minecraft:hand_equipped": true,
+									"minecraft:durability": {
+										"max_damage": 250,
+										"damage_chance": 1
+									},
+									"minecraft:mining_speed": 1.5,
+									"minecraft:damage": 6,
+									"minecraft:enchantable": {
+										"value": 14,
+										"slot": "sword"
+									},
+									"minecraft:can_destroy_in_creative": false,
+									"minecraft:digger": {
+										"use_efficiency": true,
+										"destroy_speeds": [
+											{
+												"block": "minecraft:web",
+												"speed": 15
+											},
+											{
+												"block": "minecraft:bamboo",
+												"speed": 10
+											}
+										]
+									},
+									"minecraft:weapon": {
+										"on_hurt_entity": {
+											"event": "on_hurt_entity",
+											"target": "target"
+										}
+									},
+									"minecraft:icon": {
+										"texture": "stygian_iron_sword"
+									},
+									"minecraft:render_offsets": "tools",
+									"minecraft:display_name": {
+										"value": "Stygian Iron Sword"
+									},
+									"minecraft:creative_category": {
+										"parent": "itemGroup.name.sword"
+									}
+								},
+								"key": "minecraft:creative_category",
+								"is_minified": true,
+								"children": {
+									"parent": "itemGroup.name.sword"
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "flabyss:stygian_iron_sword",
+								"category": "equipment"
+							},
+							"components": {
+								"minecraft:max_stack_size": 1,
+								"minecraft:use_duration": 3600,
+								"minecraft:hand_equipped": true,
+								"minecraft:durability": {
+									"max_damage": 250,
+									"damage_chance": 1
+								},
+								"minecraft:mining_speed": 1.5,
+								"minecraft:damage": 6,
+								"minecraft:enchantable": {
+									"value": 14,
+									"slot": "sword"
+								},
+								"minecraft:can_destroy_in_creative": false,
+								"minecraft:digger": {
+									"use_efficiency": true,
+									"destroy_speeds": [
+										{
+											"block": "minecraft:web",
+											"speed": 15
+										},
+										{
+											"block": "minecraft:bamboo",
+											"speed": 10
+										}
+									]
+								},
+								"minecraft:weapon": {
+									"on_hurt_entity": {
+										"event": "on_hurt_entity",
+										"target": "target"
+									}
+								},
+								"minecraft:icon": {
+									"texture": "stygian_iron_sword"
+								},
+								"minecraft:render_offsets": "tools",
+								"minecraft:display_name": {
+									"value": "Stygian Iron Sword"
+								},
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								}
+							},
+							"events": {
+								"on_hurt_entity": {
+									"sequence": [
+										{
+											"run_command": {
+												"command": [
+													"effect @s wither 5 1 true"
+												]
+											}
+										},
+										{
+											"damage": {
+												"type": "durability",
+												"amount": 1,
+												"target": "self"
+											}
+										}
+									]
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"on_hurt_entity": {
+										"sequence": [
+											{
+												"run_command": {
+													"command": [
+														"effect @s wither 5 1 true"
+													]
+												}
+											},
+											{
+												"damage": {
+													"type": "durability",
+													"amount": 1,
+													"target": "self"
+												}
+											}
+										]
+									}
+								},
+								"key": "on_hurt_entity",
+								"children": [
+									{
+										"open": {
+											"sequence": [
+												{
+													"run_command": {
+														"command": [
+															"effect @s wither 5 1 true"
+														]
+													}
+												},
+												{
+													"damage": {
+														"type": "durability",
+														"amount": 1,
+														"target": "self"
+													}
+												}
+											]
+										},
+										"key": "sequence",
+										"children": [
+											{
+												"open": [
+													{
+														"run_command": {
+															"command": [
+																"effect @s wither 5 1 true"
+															]
+														}
+													},
+													{
+														"damage": {
+															"type": "durability",
+															"amount": 1,
+															"target": "self"
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"run_command": {
+																"command": [
+																	"effect @s wither 5 1 true"
+																]
+															}
+														},
+														"key": "run_command",
+														"children": [
+															{
+																"open": {
+																	"command": [
+																		"effect @s wither 5 1 true"
+																	]
+																},
+																"key": "command",
+																"is_minified": true,
+																"children": [
+																	"effect @s wither 5 1 true"
+																]
+															}
+														]
+													}
+												]
+											},
+											{
+												"open": [
+													{
+														"run_command": {
+															"command": [
+																"effect @s wither 5 1 true"
+															]
+														}
+													},
+													{
+														"damage": {
+															"type": "durability",
+															"amount": 1,
+															"target": "self"
+														}
+													}
+												],
+												"children": [
+													{
+														"open": {
+															"damage": {
+																"type": "durability",
+																"amount": 1,
+																"target": "self"
+															}
+														},
+														"key": "damage",
+														"is_minified": true,
+														"children": {
+															"type": "durability",
+															"amount": 1,
+															"target": "self"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

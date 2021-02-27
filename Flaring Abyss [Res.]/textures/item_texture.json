@@ -1,0 +1,17 @@
+//bridge-file-version: #0
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"stygian_iron_sword": {
+			"textures": [
+				"textures/items/stygian_iron_sword"
+			]
+		},
+		"scythe": {
+			"textures": [
+				"textures/items/scythe"
+			]
+		}
+	}
+}

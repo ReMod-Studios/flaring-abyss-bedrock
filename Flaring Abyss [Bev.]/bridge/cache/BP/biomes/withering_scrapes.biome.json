@@ -1,0 +1,312 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Flaring Abyss [Bev.]\\biomes\\withering_scrapes.biome.json",
+	"file_type": "biome",
+	"format_version": 1,
+	"file_uuid": "48f61a09_c7de_46bc_9f03_4481dc1c4cb6",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.13.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.13.0",
+					"minecraft:biome": {
+						"description": {
+							"identifier": "withering_scrapes"
+						},
+						"components": {
+							"minecraft:climate": {
+								"downfall": 0,
+								"snow_accumulation": [
+									0,
+									0.125
+								],
+								"temperature": 2,
+								"ash": 0.05
+							},
+							"minecraft:nether_generation_rules": {
+								"target_temperature": 0,
+								"target_humidity": -0.5,
+								"target_altitude": 0,
+								"target_weirdness": 0,
+								"weight": 10
+							},
+							"minecraft:capped_surface": {
+								"floor_materials": [
+									"flabyss:wiltslate"
+								],
+								"ceiling_materials": [
+									"flabyss:wiltslate"
+								],
+								"sea_material": "minecraft:lava",
+								"beach_material": "minecraft:gravel",
+								"foundation_material": "minecraft:netherrack"
+							},
+							"nether": {},
+							"withering_scrapes": {},
+							"spawn_ghast": {},
+							"spawn_endermen": {}
+						}
+					}
+				},
+				"key": "minecraft:biome",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "withering_scrapes"
+							},
+							"components": {
+								"minecraft:climate": {
+									"downfall": 0,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 2,
+									"ash": 0.05
+								},
+								"minecraft:nether_generation_rules": {
+									"target_temperature": 0,
+									"target_humidity": -0.5,
+									"target_altitude": 0,
+									"target_weirdness": 0,
+									"weight": 10
+								},
+								"minecraft:capped_surface": {
+									"floor_materials": [
+										"flabyss:wiltslate"
+									],
+									"ceiling_materials": [
+										"flabyss:wiltslate"
+									],
+									"sea_material": "minecraft:lava",
+									"beach_material": "minecraft:gravel",
+									"foundation_material": "minecraft:netherrack"
+								},
+								"nether": {},
+								"withering_scrapes": {},
+								"spawn_ghast": {},
+								"spawn_endermen": {}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "withering_scrapes"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "withering_scrapes"
+							},
+							"components": {
+								"minecraft:climate": {
+									"downfall": 0,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 2,
+									"ash": 0.05
+								},
+								"minecraft:nether_generation_rules": {
+									"target_temperature": 0,
+									"target_humidity": -0.5,
+									"target_altitude": 0,
+									"target_weirdness": 0,
+									"weight": 10
+								},
+								"minecraft:capped_surface": {
+									"floor_materials": [
+										"flabyss:wiltslate"
+									],
+									"ceiling_materials": [
+										"flabyss:wiltslate"
+									],
+									"sea_material": "minecraft:lava",
+									"beach_material": "minecraft:gravel",
+									"foundation_material": "minecraft:netherrack"
+								},
+								"nether": {},
+								"withering_scrapes": {},
+								"spawn_ghast": {},
+								"spawn_endermen": {}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:climate",
+								"is_minified": true,
+								"children": {
+									"downfall": 0,
+									"snow_accumulation": [
+										0,
+										0.125
+									],
+									"temperature": 2,
+									"ash": 0.05
+								}
+							},
+							{
+								"open": {
+									"minecraft:climate": {
+										"downfall": 0,
+										"snow_accumulation": [
+											0,
+											0.125
+										],
+										"temperature": 2,
+										"ash": 0.05
+									},
+									"minecraft:nether_generation_rules": {
+										"target_temperature": 0,
+										"target_humidity": -0.5,
+										"target_altitude": 0,
+										"target_weirdness": 0,
+										"weight": 10
+									},
+									"minecraft:capped_surface": {
+										"floor_materials": [
+											"flabyss:wiltslate"
+										],
+										"ceiling_materials": [
+											"flabyss:wiltslate"
+										],
+										"sea_material": "minecraft:lava",
+										"beach_material": "minecraft:gravel",
+										"foundation_material": "minecraft:netherrack"
+									},
+									"nether": {},
+									"withering_scrapes": {},
+									"spawn_ghast": {},
+									"spawn_endermen": {}
+								},
+								"key": "minecraft:nether_generation_rules",
+								"is_minified": true,
+								"children": {
+									"target_temperature": 0,
+									"target_humidity": -0.5,
+									"target_altitude": 0,
+									"target_weirdness": 0,
+									"weight": 10
+								}
+							},
+							{
+								"open": {
+									"minecraft:climate": {
+										"downfall": 0,
+										"snow_accumulation": [
+											0,
+											0.125
+										],
+										"temperature": 2,
+										"ash": 0.05
+									},
+									"minecraft:nether_generation_rules": {
+										"target_temperature": 0,
+										"target_humidity": -0.5,
+										"target_altitude": 0,
+										"target_weirdness": 0,
+										"weight": 10
+									},
+									"minecraft:capped_surface": {
+										"floor_materials": [
+											"flabyss:wiltslate"
+										],
+										"ceiling_materials": [
+											"flabyss:wiltslate"
+										],
+										"sea_material": "minecraft:lava",
+										"beach_material": "minecraft:gravel",
+										"foundation_material": "minecraft:netherrack"
+									},
+									"nether": {},
+									"withering_scrapes": {},
+									"spawn_ghast": {},
+									"spawn_endermen": {}
+								},
+								"key": "minecraft:capped_surface",
+								"children": [
+									{
+										"open": {
+											"floor_materials": [
+												"flabyss:wiltslate"
+											],
+											"ceiling_materials": [
+												"flabyss:wiltslate"
+											],
+											"sea_material": "minecraft:lava",
+											"beach_material": "minecraft:gravel",
+											"foundation_material": "minecraft:netherrack"
+										},
+										"key": "floor_materials",
+										"is_minified": true,
+										"children": [
+											"flabyss:wiltslate"
+										]
+									},
+									{
+										"open": {
+											"floor_materials": [
+												"flabyss:wiltslate"
+											],
+											"ceiling_materials": [
+												"flabyss:wiltslate"
+											],
+											"sea_material": "minecraft:lava",
+											"beach_material": "minecraft:gravel",
+											"foundation_material": "minecraft:netherrack"
+										},
+										"key": "ceiling_materials",
+										"is_minified": true,
+										"children": [
+											"flabyss:wiltslate"
+										]
+									},
+									{
+										"data": "minecraft:lava",
+										"key": "sea_material"
+									},
+									{
+										"data": "minecraft:gravel",
+										"key": "beach_material"
+									},
+									{
+										"data": "minecraft:netherrack",
+										"key": "foundation_material"
+									}
+								]
+							},
+							{
+								"key": "nether",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "withering_scrapes",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "spawn_ghast",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "spawn_endermen",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

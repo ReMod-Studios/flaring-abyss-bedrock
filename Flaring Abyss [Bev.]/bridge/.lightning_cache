@@ -1,0 +1,129 @@
+{
+	"entity": {
+		"BP/entities/player.json": {
+			"events": [
+				"minecraft:gain_bad_omen",
+				"minecraft:clear_add_bad_omen",
+				"minecraft:trigger_raid",
+				"minecraft:remove_raid_trigger"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"minecraft:player"
+			],
+			"animation_references": [],
+			"families": [
+				"player"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/entities/scythe_projectile.json": {
+			"events": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"flabyss:scythe_projectile"
+			],
+			"animation_references": [],
+			"families": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"item": {
+		"BP/items/stygian_iron_sword.json": {
+			"identifiers": [
+				"flabyss:stygian_iron_sword"
+			],
+			"custom_commands": []
+		},
+		"BP/items/scythe.json": {
+			"identifiers": [
+				"flabyss:scythe"
+			],
+			"custom_commands": []
+		}
+	},
+	"function": {
+		"40aa0383_ef3a_4ea5_a214_01d4a99560f5": {}
+	},
+	"client_entity": {
+		"RP/entity/scythe_projectile.json": {
+			"identifiers": [
+				"flabyss:scythe_projectile"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"fly"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"block": {
+		"BP/blocks/soul_gas.json": {
+			"identifiers": [
+				"flabyss:soul_gas"
+			],
+			"events": [],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/soul_diamond_ore.json": {
+			"identifiers": [
+				"flabyss:soul_diamond_ore"
+			],
+			"events": [
+				"on_break"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		},
+		"BP/blocks/wiltslate.json": {
+			"identifiers": [
+				"flabyss:wiltslate"
+			],
+			"events": [
+				"on_break"
+			],
+			"recipe_tags": [],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"feature": {
+		"BP/features/soul_crystal_ore_feature.json": {
+			"identifiers": [
+				"flabyss:soul_crystal_ore_feature"
+			]
+		}
+	},
+	"feature_rule": {
+		"BP/feature_rules/nether_underground_soul_crystal_ore_feature.json": {
+			"identifiers": [
+				"flabyss:nether_underground_soul_crystal_ore_feature"
+			]
+		}
+	},
+	"biome": {
+		"BP/biomes/withering_scrapes.biome.json": {
+			"tags": [
+				"minecraft:capped_surface",
+				"withering_scrapes"
+			]
+		}
+	}
+}

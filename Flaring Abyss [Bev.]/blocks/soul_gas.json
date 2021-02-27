@@ -1,0 +1,31 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "flabyss:soul_gas"
+		},
+		"components": {
+			"minecraft:destroy_time": 0,
+			"minecraft:block_light_emission": 1,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:map_color": "#7EA0C0",
+			"minecraft:flammable": {
+				"burn_odds": 0,
+				"flame_odds": 0
+			},
+			"minecraft:explosion_resistance": 0,
+			"minecraft:friction": 0.5,
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "soul_gas",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:entity_collision": false
+		},
+		"events": {}
+	}
+}

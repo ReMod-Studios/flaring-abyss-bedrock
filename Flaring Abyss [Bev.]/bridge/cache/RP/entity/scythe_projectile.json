@@ -1,0 +1,272 @@
+{
+	"file_path": "C:\\Users\\IshatGupta\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Flaring Abyss [Res.]\\entity\\scythe_projectile.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "085c9bf2_b5eb_4742_825d_8dbfb66c94c7",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "flabyss:scythe_projectile",
+							"materials": {
+								"default": "entity_alphatest"
+							},
+							"textures": {
+								"default": "textures/items/scythe"
+							},
+							"geometry": {
+								"default": "geometry.throwable_item"
+							},
+							"animations": {
+								"fly": "animation.throwable_item.sycthe.fly"
+							},
+							"scripts": {
+								"animate": [
+									"fly"
+								]
+							},
+							"render_controllers": [
+								"controller.render.default"
+							]
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "flabyss:scythe_projectile",
+								"materials": {
+									"default": "entity_alphatest"
+								},
+								"textures": {
+									"default": "textures/items/scythe"
+								},
+								"geometry": {
+									"default": "geometry.throwable_item"
+								},
+								"animations": {
+									"fly": "animation.throwable_item.sycthe.fly"
+								},
+								"scripts": {
+									"animate": [
+										"fly"
+									]
+								},
+								"render_controllers": [
+									"controller.render.default"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "flabyss:scythe_projectile",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "flabyss:scythe_projectile",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/items/scythe"
+									},
+									"geometry": {
+										"default": "geometry.throwable_item"
+									},
+									"animations": {
+										"fly": "animation.throwable_item.sycthe.fly"
+									},
+									"scripts": {
+										"animate": [
+											"fly"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest"
+								}
+							},
+							{
+								"open": {
+									"identifier": "flabyss:scythe_projectile",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/items/scythe"
+									},
+									"geometry": {
+										"default": "geometry.throwable_item"
+									},
+									"animations": {
+										"fly": "animation.throwable_item.sycthe.fly"
+									},
+									"scripts": {
+										"animate": [
+											"fly"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/items/scythe"
+								}
+							},
+							{
+								"open": {
+									"identifier": "flabyss:scythe_projectile",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/items/scythe"
+									},
+									"geometry": {
+										"default": "geometry.throwable_item"
+									},
+									"animations": {
+										"fly": "animation.throwable_item.sycthe.fly"
+									},
+									"scripts": {
+										"animate": [
+											"fly"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.throwable_item"
+								}
+							},
+							{
+								"open": {
+									"identifier": "flabyss:scythe_projectile",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/items/scythe"
+									},
+									"geometry": {
+										"default": "geometry.throwable_item"
+									},
+									"animations": {
+										"fly": "animation.throwable_item.sycthe.fly"
+									},
+									"scripts": {
+										"animate": [
+											"fly"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									]
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"fly": "animation.throwable_item.sycthe.fly"
+								}
+							},
+							{
+								"open": {
+									"identifier": "flabyss:scythe_projectile",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/items/scythe"
+									},
+									"geometry": {
+										"default": "geometry.throwable_item"
+									},
+									"animations": {
+										"fly": "animation.throwable_item.sycthe.fly"
+									},
+									"scripts": {
+										"animate": [
+											"fly"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									]
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"fly"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"children": [
+											"fly"
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "flabyss:scythe_projectile",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/items/scythe"
+									},
+									"geometry": {
+										"default": "geometry.throwable_item"
+									},
+									"animations": {
+										"fly": "animation.throwable_item.sycthe.fly"
+									},
+									"scripts": {
+										"animate": [
+											"fly"
+										]
+									},
+									"render_controllers": [
+										"controller.render.default"
+									]
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.default"
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

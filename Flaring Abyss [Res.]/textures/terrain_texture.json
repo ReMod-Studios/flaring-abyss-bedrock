@@ -1,0 +1,24 @@
+//bridge-file-version: #2
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"soul_diamond_ore": {
+			"textures": [
+				"textures/blocks/soul_crystal"
+			]
+		},
+		"soul_gas": {
+			"textures": [
+				"textures/blocks/soul_gas"
+			]
+		},
+		"wiltslate": {
+			"textures": [
+				"textures/blocks/wiltslate"
+			]
+		}
+	}
+}

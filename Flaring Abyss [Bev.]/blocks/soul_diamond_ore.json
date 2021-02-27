@@ -1,0 +1,49 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "flabyss:soul_diamond_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1,
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 1,
+			"minecraft:flammable": {
+				"burn_odds": 0,
+				"flame_odds": 0
+			},
+			"minecraft:friction": 0.5,
+			"minecraft:explosion_resistance": 2.5,
+			"minecraft:map_color": "#3F2018",
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:unit_cube": {},
+			"minecraft:breathability": "solid",
+			"minecraft:breakonpush": false,
+			"minecraft:on_player_destroyed": {
+				"target": "self",
+				"event": "on_break",
+				"condition": "q.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shovel')"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "soul_diamond_ore",
+					"render_method": "opaque"
+				}
+			},
+			"tag:sand": {}
+		},
+		"events": {
+			"on_break": {
+				"sequence": [
+					{
+						"spawn_loot": {
+							"table": "loot_tables/blocks/soul_diamond_ore.json"
+						}
+					}
+				]
+			}
+		}
+	}
+}
