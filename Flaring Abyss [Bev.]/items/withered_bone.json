@@ -12,7 +12,11 @@
             "minecraft:hand_equipped": true,
             "minecraft:icon": {
                 "texture": "withered_bone"
-            }
+            },
+            "minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+            "minecraft:allow_off_hand": true
         }
     }
 }
