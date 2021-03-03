@@ -1,0 +1,18 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "category": "Items",
+            "identifier": "flabyss:withered_bone"
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "Withered Bone"
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:icon": {
+                "texture": "withered_bone"
+            }
+        }
+    }
+}

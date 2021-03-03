@@ -1,4 +1,3 @@
-//bridge-file-version: #0
 {
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.items",
@@ -12,6 +11,9 @@
 			"textures": [
 				"textures/items/scythe"
 			]
+		},
+		"withered_bone": {
+			"textures": "textures/items/withered_bone"
 		}
 	}
 }

@@ -21,7 +21,9 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "soul_gas",
-					"render_method": "alpha_test"
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
 				}
 			},
 			"minecraft:entity_collision": false
