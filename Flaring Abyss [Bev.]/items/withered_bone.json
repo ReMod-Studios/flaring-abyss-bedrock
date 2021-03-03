@@ -14,7 +14,7 @@
                 "texture": "withered_bone"
             },
             "minecraft:creative_category": {
-				"parent": "itemGroup.name.items"
+				"parent": "itemGroup.name.nature"
 			},
             "minecraft:allow_off_hand": true
         }
