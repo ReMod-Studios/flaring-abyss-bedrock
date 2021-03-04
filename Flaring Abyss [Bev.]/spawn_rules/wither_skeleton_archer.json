@@ -13,9 +13,7 @@
                 },
                 "minecraft:spawns_on_surface": {},
                 "minecraft:spawns_on_block_filter": [
-                    {
-                        "block": "minecraft:nether_brick"
-                    }
+                    "minecraft:nether_brick"
                 ],
                 "minecraft:difficulty_filter": {
                     "min": "easy",
