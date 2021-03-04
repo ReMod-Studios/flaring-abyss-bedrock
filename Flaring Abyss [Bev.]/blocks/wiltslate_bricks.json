@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "flabyss:wiltslate",
+			"identifier": "flabyss:wiltslate_bricks",
 			"is_experimental": false
 		},
 		"components": {
@@ -27,7 +27,7 @@
 			},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "wiltslate",
+					"texture": "wiltslate_bricks",
 					"render_method": "opaque"
 				}
 			},
@@ -38,7 +38,7 @@
 				"sequence": [
 					{
 						"spawn_loot": {
-							"table": "loot_tables/blocks/wiltslate.json"
+							"table": "loot_tables/blocks/wiltslate_bricks.json"
 						}
 					}
 				]
