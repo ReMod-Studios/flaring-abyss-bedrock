@@ -54,7 +54,7 @@
 			},
 			"minecraft:render_offsets": "tools",
 			"minecraft:display_name": {
-				"value": "Stygian Iron Sword"
+				"value": "item.flabyss:stygian_iron_sword.name"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"

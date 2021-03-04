@@ -51,7 +51,7 @@
 			},
 			"minecraft:render_offsets": "trident",
 			"minecraft:display_name": {
-				"value": "Scythe"
+				"value": "item.flabyss:scythe.name"
 			},
 			"minecraft:creative_category": {
 				"parent": "equipment"
