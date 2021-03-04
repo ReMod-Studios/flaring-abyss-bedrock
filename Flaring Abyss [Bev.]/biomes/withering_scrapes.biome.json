@@ -1,4 +1,4 @@
-//bridge-file-version: #1
+//bridge-file-version: #3
 {
 	"format_version": "1.13.0",
 	"minecraft:biome": {
@@ -17,10 +17,10 @@
 			},
 			"minecraft:nether_generation_rules": {
 				"target_temperature": 0,
-				"target_humidity": -0.5,
-				"target_altitude": 0,
+				"target_humidity": 0,
+				"target_altitude": 0.5,
 				"target_weirdness": 0,
-				"weight": 10
+				"weight": 0
 			},
 			"minecraft:capped_surface": {
 				"floor_materials": [

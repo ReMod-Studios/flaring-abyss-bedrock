@@ -1,0 +1,27 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:spawn_rules": {
+        "description": {
+            "identifier": "flabyss:wither_skeleton_archer",
+            "population_control": "monster"
+        },
+        "conditions": [
+            {
+                "minecraft:biome_filter": {
+                    "test": "has_biome_tag",
+                    "value": "withering_scrapes"
+                },
+                "minecraft:spawns_on_surface": {},
+                "minecraft:spawns_on_block_filter": [
+                    {
+                        "block": "minecraft:nether_brick"
+                    }
+                ],
+                "minecraft:difficulty_filter": {
+                    "min": "easy",
+                    "max": "hard"
+                }
+            }
+        ]
+    }
+}
