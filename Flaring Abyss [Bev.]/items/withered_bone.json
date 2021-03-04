@@ -6,17 +6,18 @@
             "identifier": "flabyss:withered_bone"
         },
         "components": {
-            "minecraft:display_name": {
-                "value": "Withered Bone"
-            },
             "minecraft:hand_equipped": true,
+            "minecraft:allow_off_hand": true,
             "minecraft:icon": {
                 "texture": "withered_bone"
             },
+            "minecraft:render_offsets": "bone",
+            "minecraft:display_name": {
+                "value": "Withered Bone"
+            },
             "minecraft:creative_category": {
 				"parent": "itemGroup.name.nature"
-			},
-            "minecraft:allow_off_hand": true
+			}
         }
     }
 }

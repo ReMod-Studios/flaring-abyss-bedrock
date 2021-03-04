@@ -5,6 +5,9 @@
       "water_surface_transparency": 0.65,
       "water_fog_color": "#44AFF5",
       "water_fog_distance": 15
+    },
+    "withering_scrapes": {
+      "fog_identifier": "flabyss:withering_scrapes"
     }
   }
 }
