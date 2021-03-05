@@ -1,4 +1,3 @@
-//bridge-file-version: #5
 {
 	"format_version": "1.16.100",
 	"minecraft:block": {
@@ -24,7 +23,7 @@
 			"minecraft:on_player_destroyed": {
 				"target": "self",
 				"event": "on_break",
-				"condition": "q.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shovel')"
+				"condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_shovel') || query.get_equipped_item_name == 'wooden_shovel' || query.get_equipped_item_name == 'stone_shovel' || query.get_equipped_item_name == 'golden_shovel' || query.get_equipped_item_name == 'iron_shovel' || query.get_equipped_item_name == 'diamond_shovel' || query.get_equipped_item_name == 'netherite_shovel'"
 			},
 			"minecraft:material_instances": {
 				"*": {

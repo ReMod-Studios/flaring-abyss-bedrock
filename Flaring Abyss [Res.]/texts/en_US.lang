@@ -3,6 +3,7 @@ pack.name=Flaring Abyss §c[Res.]
 pack.description=A Project which aims to expand the Nether further!
 
 ## BLOCKS
+<<<<<<< HEAD
 tile.flabyss:soul_crystal_ore.name=Soul Crystal Ore
 tile.flabyss:soul_gas.name=Soul Gas
 
@@ -12,4 +13,17 @@ tile.flabyss:wiltslate_bricks.name=Wiltslate Bricks
 tile.flabyss:limestone.name=Limestone
 
 ## ENTITIES
+=======
+tile.flabyss:soul_diamond_ore.name=Soul Diamond Ore
+tile.flabyss:soul_gas.name=Soul Gas
+tile.flabyss:wiltslate.name=Wiltslate
+tile.flabyss:wiltslate_bricks.name=Wiltslate Bricks
+
+## ITEMS
+item.flabyss:stygian_iron_sword.name=Stygian Iron Sword
+item.flabyss:withered_bone.name=Withered Bone
+item.flabyss:scythe.name=Scythe
+
+## SPAWN EGGS
+>>>>>>> f0b7ad8a3b4bfa04c20d155ce91c7cece1f9f993
 item.spawn_egg.entity.flabyss:wither_skeleton_archer.name=Wither Skeleton Archer

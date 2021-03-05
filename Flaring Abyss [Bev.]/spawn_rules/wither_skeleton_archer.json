@@ -7,19 +7,53 @@
         },
         "conditions": [
             {
-                "minecraft:biome_filter": {
-                    "test": "has_biome_tag",
-                    "value": "withering_scrapes"
+                "minecraft:spawns_underground": {},
+                "minecraft:weight": {
+                    "default": 100
                 },
-                "minecraft:spawns_on_surface": {},
+                "minecraft:difficulty_filter": {
+                    "min": "easy",
+                    "max": "hard"
+                },
+                "minecraft:herd": {
+                    "min_size": 1,
+                    "max_size": 4
+                },
+                "minecraft:biome_filter": {
+                    "all_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "withering_scrapes"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "operator": "==",
+                            "value": "nether"
+                        }
+                    ]
+                }
+            },
+            {
+                "minecraft:spawns_underground": {},
+                "minecraft:weight": {
+                    "default": 6
+                },
                 "minecraft:spawns_on_block_filter": [
-                    {
-                        "block": "minecraft:nether_brick"
-                    }
+                    "minecraft:nether_bricks"
                 ],
                 "minecraft:difficulty_filter": {
                     "min": "easy",
                     "max": "hard"
+                },
+                "minecraft:herd": {
+                    "min_size": 1,
+                    "max_size": 4
+                },
+                "minecraft:biome_filter": {
+                    "test": "has_biome_tag",
+                    "operator": "==",
+                    "value": "nether"
                 }
             }
         ]

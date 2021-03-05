@@ -1,6 +1,7 @@
 {
   "format_version": [1, 1, 0],
   "flabyss:wiltslate": {
+<<<<<<< HEAD
     "sound": "nether_brick"
   },
   "flabyss:wiltslate_bricks": {
@@ -14,5 +15,14 @@
   },
   "flabyss:limestone": {
     "sound": "stone"
+=======
+    "sound": "basalt"
+  },
+  "flabyss:wiltslate_bricks": {
+    "sound": "stone"
+  },
+  "flabyss:soul_diamond_ore": {
+    "sound": "sweet_berry_bush"
+>>>>>>> f0b7ad8a3b4bfa04c20d155ce91c7cece1f9f993
   }
 }
