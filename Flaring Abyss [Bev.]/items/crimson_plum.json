@@ -23,7 +23,8 @@
             },
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.crop"
-			}
+			},
+			"minecraft:use_animation": "eat"
 		}
 	}
 }
