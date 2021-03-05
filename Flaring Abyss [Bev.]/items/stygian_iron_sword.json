@@ -63,7 +63,7 @@
 					{
 						"add_mob_effect": {
 							"effect": "wither",
-							"target": "target",
+							"target": "other",
 							"duration": 5,
 							"amplifier": 1
 						}
