@@ -62,25 +62,6 @@
 		},
 		"events": {
 			"on_hurt_entity": {
-<<<<<<< HEAD
-				"sequence": [
-					{
-						"damage": {
-							"type": "durability",
-							"amount": 1,
-							"target": "self"
-						}
-					},
-					{
-						"add_mob_effect": {
-							"effect": "wither",
-							"target": "other",
-							"duration": 5,
-							"amplifier": 1
-						}
-					}
-				]
-=======
 				"damage": {
 					"type": "durability",
 					"amount": 1,
@@ -99,7 +80,6 @@
 					"amount": 2,
 					"target": "self"
 				}
->>>>>>> f0b7ad8a3b4bfa04c20d155ce91c7cece1f9f993
 			}
 		}
 	}
