@@ -23,6 +23,11 @@
 			"textures": [
 				"textures/blocks/wiltslate_bricks"
 			]
+		},
+		"limestone": {
+			"textures": [
+				"textures/blocks/limestone"
+			]
 		}
 	}
 }

@@ -2,13 +2,13 @@
     "format_version": "1.16.100",
     "minecraft:fog_settings": {
         "description": {
-            "identifier": "flabyss:withering_scrapes"
+            "identifier": "flabyss:arid_dusts"
         },
         "distance": {
             "air":{
-                "fog_color": "#023616",
-                "fog_start": 10,
-                "fog_end": 40,
+                "fog_color": "#a1c44f",
+                "fog_start": 5,
+                "fog_end": 50,
                 "render_distance_type": "fixed"
             }
         }

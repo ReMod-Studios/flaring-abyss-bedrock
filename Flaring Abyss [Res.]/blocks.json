@@ -11,5 +11,8 @@
   },
   "flabyss:soul_diamond_ore": {
     "sound": "soul_sand"
+  },
+  "flabyss:limestone": {
+    "sound": "stone"
   }
 }

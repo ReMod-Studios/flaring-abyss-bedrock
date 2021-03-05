@@ -8,6 +8,9 @@
     },
     "withering_scrapes": {
       "fog_identifier": "flabyss:withering_scrapes"
+    },
+    "arid_dusts": {
+      "fog_identifier": "flabyss:arid_dusts"
     }
   }
 }
