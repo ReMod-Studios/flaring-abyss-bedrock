@@ -12,7 +12,7 @@
 					0.125
 				],
 				"temperature": 2,
-				"ash": 0.5
+				"ash": 0.05
 			},
 			"minecraft:nether_generation_rules": {
 				"target_temperature": 0,

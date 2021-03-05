@@ -1,3 +1,15 @@
 {
-  "format_version": [1, 1, 0]
+  "format_version": [1, 1, 0],
+  "flabyss:wiltslate": {
+    "sound": "nether_brick"
+  },
+  "flabyss:wiltslate_bricks": {
+    "sound": "nether_brick"
+  },
+  "flabyss:soul_gas": {
+    "sound": "sand"
+  },
+  "flabyss:soul_diamond_ore": {
+    "sound": "soul_sand"
+  }
 }
