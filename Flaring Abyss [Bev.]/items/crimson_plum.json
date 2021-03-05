@@ -1,0 +1,29 @@
+{
+    "format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "flabyss:crimson_plum",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:use_duration": 1.6,
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:food": {
+				"nutrition": 5,
+                "saturation_modifier": "normal"
+			},
+			"minecraft:icon": {
+				"texture": "crimson_plum"
+			},
+            "minecraft:render_offsets": "apple",
+            "minecraft:display_name": {
+                "value": "Crimson Plum"
+            },
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.crop"
+			}
+		}
+	}
+}

@@ -14,6 +14,16 @@
 		},
 		"withered_bone": {
 			"textures": "textures/items/withered_bone"
+		},
+		"crimson_plum": {
+			"textures": [
+				"textures/items/crimson_plum"
+			]
+		},
+		"warped_tangerine": {
+			"textures": [
+				"textures/items/warped_tangerine"
+			]
 		}
 	}
 }

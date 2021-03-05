@@ -2,8 +2,8 @@
     "format_version": "1.16.100",
     "minecraft:item": {
         "description": {
-            "category": "Nature",
-            "identifier": "flabyss:withered_bone"
+            "identifier": "flabyss:withered_bone",
+            "category": "Items"
         },
         "components": {
             "minecraft:hand_equipped": true,
@@ -16,7 +16,7 @@
                 "value": "Withered Bone"
             },
             "minecraft:creative_category": {
-				"parent": "itemGroup.name.nature"
+				"parent": "itemGroup.name.bone"
 			}
         }
     }
