@@ -28,6 +28,11 @@
 			"textures": [
 				"textures/blocks/limestone"
 			]
+		},
+		"limestone_bricks": {
+			"textures": [
+				"textures/blocks/limestone_bricks"
+			]
 		}
 	}
 }
