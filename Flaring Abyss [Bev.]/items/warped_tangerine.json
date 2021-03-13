@@ -12,7 +12,10 @@
 			"minecraft:stacked_by_data": true,
 			"minecraft:food": {
 				"nutrition": 5,
-                "saturation_modifier": "normal"
+				"saturation_modifier": "normal",
+				"on_consume": {
+					"event": "on_consume"
+				}
 			},
 			"minecraft:icon": {
 				"texture": "warped_tangerine"
@@ -25,6 +28,28 @@
 				"parent": "itemGroup.name.crop"
 			},
 			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"on_consume": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "speed",
+							"target": "holder",
+							"duration": 15,
+							"amplifier": 1
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "resistance",
+							"target": "holder",
+							"duration": 15,
+							"amplifier": 1
+						}
+					}
+				]
+			}
 		}
 	}
 }

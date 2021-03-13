@@ -1,5 +1,5 @@
 {
-    "format_version": "1.16.100",
+	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
 			"identifier": "flabyss:crimson_plum",
@@ -12,19 +12,44 @@
 			"minecraft:stacked_by_data": true,
 			"minecraft:food": {
 				"nutrition": 5,
-                "saturation_modifier": "normal"
+				"saturation_modifier": "normal",
+				"on_consume": {
+					"event": "on_consume"
+				}
 			},
 			"minecraft:icon": {
 				"texture": "crimson_plum"
 			},
-            "minecraft:render_offsets": "apple",
-            "minecraft:display_name": {
-                "value": "Crimson Plum"
-            },
+			"minecraft:render_offsets": "apple",
+			"minecraft:display_name": {
+				"value": "Crimson Plum"
+			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.crop"
 			},
 			"minecraft:use_animation": "eat"
+		},
+		"events": {
+			"on_consume": {
+				"sequence": [
+					{
+						"add_mob_effect": {
+							"effect": "slowness",
+							"target": "holder",
+							"duration": 15,
+							"amplifier": 1
+						}
+					},
+					{
+						"add_mob_effect": {
+							"effect": "strength",
+							"target": "holder",
+							"duration": 15,
+							"amplifier": 1
+						}
+					}
+				]
+			}
 		}
 	}
 }
