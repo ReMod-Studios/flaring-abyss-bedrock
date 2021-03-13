@@ -24,14 +24,14 @@
 				"textures/blocks/wiltslate_bricks"
 			]
 		},
-		"limestone": {
+		"aridstone": {
 			"textures": [
-				"textures/blocks/limestone"
+				"textures/blocks/aridstone"
 			]
 		},
-		"limestone_bricks": {
+		"aridstone_bricks": {
 			"textures": [
-				"textures/blocks/limestone_bricks"
+				"textures/blocks/aridstone_bricks"
 			]
 		}
 	}

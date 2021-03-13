@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "flabyss:limestone_bricks",
+			"identifier": "flabyss:aridstone_bricks",
 			"is_experimental": false
 		},
 		"components": {
@@ -27,7 +27,7 @@
 			},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "limestone_bricks",
+					"texture": "aridstone_bricks",
 					"render_method": "opaque"
 				}
 			},
@@ -38,7 +38,7 @@
 				"sequence": [
 					{
 						"spawn_loot": {
-							"table": "loot_tables/blocks/limestone_bricks.json"
+							"table": "loot_tables/blocks/aridstone_bricks.json"
 						}
 					}
 				]

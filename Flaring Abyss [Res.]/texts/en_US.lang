@@ -9,7 +9,7 @@ tile.flabyss:soul_gas.name=Soul Gas
 tile.flabyss:wiltslate.name=Wiltslate
 tile.flabyss:wiltslate_bricks.name=Wiltslate Bricks
 
-tile.flabyss:limestone.name=Limestone
+tile.flabyss:aridstone.name=Limestone
 
 ## ENTITIES
 item.spawn_egg.entity.flabyss:wither_skeleton_archer.name=Wither Skeleton Archer

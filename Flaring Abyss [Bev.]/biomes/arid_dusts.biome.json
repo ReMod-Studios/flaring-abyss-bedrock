@@ -23,14 +23,14 @@
 			},
 			"minecraft:capped_surface": {
 				"floor_materials": [
-					"flabyss:limestone"
+					"flabyss:aridstone"
 				],
 				"ceiling_materials": [
-					"flabyss:limestone"
+					"flabyss:aridstone"
 				],
 				"sea_material": "minecraft:lava",
 				"beach_material": "minecraft:gravel",
-				"foundation_material": "minecraft:netherrack"
+				"foundation_material": "flabyss:aridstone_bricks"
 			},
 			"nether": {},
 			"withering_scrapes": {}

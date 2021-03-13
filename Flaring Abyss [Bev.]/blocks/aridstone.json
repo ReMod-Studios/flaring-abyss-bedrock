@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "flabyss:limestone",
+			"identifier": "flabyss:aridstone",
 			"is_experimental": false
 		},
 		"components": {
@@ -27,7 +27,7 @@
 			},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "limestone",
+					"texture": "aridstone",
 					"render_method": "opaque"
 				}
 			},
@@ -38,7 +38,7 @@
 				"sequence": [
 					{
 						"spawn_loot": {
-							"table": "loot_tables/blocks/limestone.json"
+							"table": "loot_tables/blocks/aridstone.json"
 						}
 					}
 				]
