@@ -11,6 +11,9 @@
     },
     "arid_dusts": {
       "fog_identifier": "flabyss:arid_dusts"
+    },
+    "crystal_coves": {
+      "fog_identifier": "flabyss:crystal_coves"
     }
   }
 }
