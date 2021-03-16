@@ -30,7 +30,7 @@
 				],
 				"sea_material": "minecraft:lava",
 				"beach_material": "minecraft:gravel",
-				"foundation_material": "flabyss:wiltslate_bricks"
+				"foundation_material": "flabyss:wiltslate"
 			},
 			"nether": {},
 			"withering_scrapes": {}
