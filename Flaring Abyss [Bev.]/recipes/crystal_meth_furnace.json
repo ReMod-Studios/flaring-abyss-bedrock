@@ -1,0 +1,13 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "flabyss:crystal_meth_furnace"
+        },
+        "input": "flabyss:rimenium",
+        "output": "flabyss:crystal_meth",
+        "tags": [
+            "furnace"
+        ]
+    }
+}

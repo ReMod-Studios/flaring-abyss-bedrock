@@ -10,5 +10,7 @@ tile.flabyss:wiltslate_bricks.name=Wiltslate Bricks
 
 tile.flabyss:aridstone.name=Limestone
 
+tile.flabyss:rimenium.name=Rimenium
+
 ## ENTITIES
 item.spawn_egg.entity.flabyss:wither_skeleton_archer.name=Wither Skeleton Archer

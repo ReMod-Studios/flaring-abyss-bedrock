@@ -24,6 +24,9 @@
 			"textures": [
 				"textures/items/warped_tangerine"
 			]
+		},
+		"crystal_meth": {
+			"textures": "textures/items/crystal_meth"
 		}
 	}
 }

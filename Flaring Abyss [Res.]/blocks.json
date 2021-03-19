@@ -14,5 +14,8 @@
   },
   "flabyss:aridstone": {
     "sound": "basalt"
+  },
+  "rimenium": {
+    "sound": "glass"
   }
 }

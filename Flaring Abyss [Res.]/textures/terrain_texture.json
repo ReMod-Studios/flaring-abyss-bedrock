@@ -33,6 +33,9 @@
 			"textures": [
 				"textures/blocks/aridstone_bricks"
 			]
+		},
+		"rimenium": {
+			"textures": "textures/blocks/rimenium"
 		}
 	}
 }
