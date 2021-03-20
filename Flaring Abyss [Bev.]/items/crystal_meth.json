@@ -21,7 +21,7 @@
 				"texture": "crystal_meth"
 			},
 			"minecraft:display_name": {
-				"value": "Crystal Meth"
+				"value": "Crystal Mеth"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.miscFood"
