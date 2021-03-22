@@ -4,6 +4,11 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"basalt_iron_ore": {
+			"textures": [
+				"textures/blocks/basalt_iron_ore"
+			]
+		},
 		"soul_diamond_ore": {
 			"textures": [
 				"textures/blocks/soul_diamond_ore"

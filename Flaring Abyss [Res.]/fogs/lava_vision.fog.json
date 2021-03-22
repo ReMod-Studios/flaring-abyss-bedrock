@@ -9,7 +9,7 @@
                 "fog_start": 100,
                 "fog_end": 200,
                 "fog_color": "#ffd06a",
-                "render_distance_type": "render"
+                "render_distance_type": "fixed"
             }
         }
     }
