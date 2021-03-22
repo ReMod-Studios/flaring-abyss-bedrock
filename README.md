@@ -21,8 +21,6 @@ A. 1.16 tho a good update, feels very small and incomplete to an extent. This mo
 
 Q. Will you do a Forge Port?
 A. 
-![Stabby on his way to hunt you down]
-(https://media.discordapp.net/attachments/814459577516294165/823562516587872306/799276530152374282.png?width=96&height=96)
 
 Q. Will you port to older versions (1.12.2, 1.15.2 etc.)?
 A. No.
