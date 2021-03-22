@@ -2,8 +2,8 @@
 	"format_version": "1.13.0",
 	"minecraft:feature_rules": {
 		"description": {
-			"identifier": "flabyss:nether_underground_soul_crystal_ore_feature",
-			"places_feature": "flabyss:soul_crystal_ore_feature"
+			"identifier": "flabyss:nether_underground_soul_diamond_ore_feature",
+			"places_feature": "flabyss:soul_diamond_ore_feature"
 		},
 		"conditions": {
 			"placement_pass": "underground_pass",

@@ -2,11 +2,11 @@
 	"format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "flabyss:aridstone",
+			"identifier": "flabyss:basalt_iron_ore",
 			"is_experimental": false
 		},
 		"components": {
-			"minecraft:destroy_time": 4,
+			"minecraft:destroy_time": 7.5,
 			"minecraft:block_light_emission": 0,
 			"minecraft:block_light_absorption": 1,
 			"minecraft:flammable": {
@@ -27,7 +27,7 @@
 			},
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "aridstone",
+					"texture": "basalt_iron_ore",
 					"render_method": "opaque"
 				}
 			},
@@ -38,7 +38,7 @@
 				"sequence": [
 					{
 						"spawn_loot": {
-							"table": "loot_tables/blocks/aridstone.json"
+							"table": "loot_tables/blocks/basalt_iron_ore.json"
 						}
 					}
 				]

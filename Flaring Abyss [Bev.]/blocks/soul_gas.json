@@ -21,8 +21,8 @@
 				"*": {
 					"texture": "soul_gas",
 					"render_method": "blend",
-					"ambient_occlusion": false,
-					"face_dimming": false
+					"ambient_occlusion": true,
+					"face_dimming": true
 				}
 			},
 			"minecraft:entity_collision": false

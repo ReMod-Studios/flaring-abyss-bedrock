@@ -6,7 +6,7 @@
 	"texture_data": {
 		"soul_diamond_ore": {
 			"textures": [
-				"textures/blocks/soul_crystal"
+				"textures/blocks/soul_diamond_ore"
 			]
 		},
 		"soul_gas": {
@@ -32,6 +32,16 @@
 		"aridstone_bricks": {
 			"textures": [
 				"textures/blocks/aridstone_bricks"
+			]
+		},
+		"cracked_aridstone_bricks": {
+			"textures": [
+				"textures/blocks/cracked_aridstone_bricks"
+			]
+		},
+		"chiseled_aridstone_bricks": {
+			"textures": [
+				"textures/blocks/chiseled_aridstone_bricks"
 			]
 		},
 		"rimenium": {

@@ -1,0 +1,17 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "flabyss:basalt_iron_ore_feature"
+		},
+		"count": 8,
+		"places_block": {
+			"name": "flabyss:basalt_iron_ore"
+		},
+		"may_replace": [
+			{
+				"name": "minecraft:basalt"
+			}
+		]
+	}
+}
