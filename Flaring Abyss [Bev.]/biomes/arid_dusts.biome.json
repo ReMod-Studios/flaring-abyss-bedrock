@@ -14,12 +14,12 @@
 				"temperature": 2,
 				"ash": 0.05
 			},
-			"minecraft:nether_generation_rules": {
-				"target_temperature": 0,
-				"target_humidity": 0,
+			"minecraft:multinoise_generation_rules": {
+				"target_temperature": 1,
+				"target_humidity": 0.1,
 				"target_altitude": 0.5,
-				"target_weirdness": 0,
-				"weight": 0
+				"target_weirdness": 1,
+				"weight": 1
 			},
 			"minecraft:capped_surface": {
 				"floor_materials": [
