@@ -6,11 +6,11 @@ Flaring Abyss is a Minecraft Mod/Addon Project which aims to expand the Nether b
 - Add-on System (Bedrock Edition's in-built system)
 
 # **Vanilla Changes and Additions:**
-**Entities**
+- ***Entities***
 - Wither Skeletons drop Withered Bones
 - Wither Skeletons use Stygian Swords
 - Wither Skeletons have melee and ranged variants
-**Biomes**
+- ***Biomes***
 - Soulsand Valley have soul puddles
 - Soul Diamond Ore
 - Basalt Iron Ore
