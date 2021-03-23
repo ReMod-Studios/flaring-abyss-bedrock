@@ -3,27 +3,31 @@
 	"texture_name": "atlas.items",
 	"texture_data": {
 		"stygian_iron_sword": {
-			"textures": [
-				"textures/items/stygian_iron_sword"
-			]
+			"textures": "textures/items/stygian_iron_sword"
 		},
+                "stygian_iron_pick": {
+                        "textures": "textures/items/stygian_iron_pick"
+                },
+                "stygian_iron_axe": {
+                        "textures": "textures/items/stygian_iron_axe"
+                },
+                "stygian_iron_shovel": {
+                        "textures": "textures/items/stygian_iron_shovel"
+                },
+                "stygian_iron_hoe": {
+                        "textures": "textures/items/stygian_iron_hoe"
+                },
 		"scythe": {
-			"textures": [
-				"textures/items/scythe"
-			]
+			"textures": "textures/items/scythe"
 		},
 		"withered_bone": {
 			"textures": "textures/items/withered_bone"
 		},
 		"crimson_plum": {
-			"textures": [
-				"textures/items/crimson_plum"
-			]
+			"textures": "textures/items/crimson_plum"
 		},
 		"warped_tangerine": {
-			"textures": [
-				"textures/items/warped_tangerine"
-			]
+			"textures": "textures/items/warped_tangerine"
 		},
 		"crystal_meth": {
 			"textures": "textures/items/crystal_meth"
