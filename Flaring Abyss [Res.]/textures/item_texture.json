@@ -5,18 +5,18 @@
 		"stygian_iron_sword": {
 			"textures": "textures/items/stygian_iron_sword"
 		},
-                "stygian_iron_pick": {
-                        "textures": "textures/items/stygian_iron_pick"
-                },
-                "stygian_iron_axe": {
-                        "textures": "textures/items/stygian_iron_axe"
-                },
-                "stygian_iron_shovel": {
-                        "textures": "textures/items/stygian_iron_shovel"
-                },
-                "stygian_iron_hoe": {
-                        "textures": "textures/items/stygian_iron_hoe"
-                },
+        "stygian_iron_pick": {
+				"textures": "textures/items/stygian_iron_pick"
+		},
+        "stygian_iron_axe": {
+			"textures": "textures/items/stygian_iron_axe"
+        },
+        "stygian_iron_shovel": {
+            "textures": "textures/items/stygian_iron_shovel"
+        },
+        "stygian_iron_hoe": {
+            "textures": "textures/items/stygian_iron_hoe"
+        },
 		"scythe": {
 			"textures": "textures/items/scythe"
 		},

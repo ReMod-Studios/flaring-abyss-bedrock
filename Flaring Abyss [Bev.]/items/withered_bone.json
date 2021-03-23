@@ -12,12 +12,12 @@
                 "texture": "withered_bone"
             },
             "minecraft:render_offsets": "bone",
-            "minecraft:display_name": {
-                "value": "Withered Bone"
-            },
             "minecraft:creative_category": {
 				"parent": "itemGroup.name.bone"
-			}
+			},
+            "minecraft:display_name": {
+                "value": "Withered Bone"
+            }
         }
     }
 }

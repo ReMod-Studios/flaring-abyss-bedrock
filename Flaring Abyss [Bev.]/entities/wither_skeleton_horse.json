@@ -16,7 +16,7 @@
 				"minecraft:is_baby": {},
 				"minecraft:scale_by_age": {
 					"start_scale": 0.5,
-					"end_scale": 1
+					"end_scale": 1.3
 				},
 				"minecraft:ageable": {
 					"duration": 1200,
