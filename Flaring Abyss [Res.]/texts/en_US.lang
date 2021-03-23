@@ -7,6 +7,8 @@ tile.flabyss:soul_gas.name=Soul Gas
 
 tile.flabyss:wiltslate.name=Wiltslate
 tile.flabyss:wiltslate_bricks.name=Wiltslate Bricks
+tile.flabyss:cracked_wiltslate_bricks.name=Cracked Wiltslate Bricks
+tile.flabyss:chiseled_wiltslate_bricks.name=Chiseled Wiltslate Bricks
 
 tile.flabyss:aridstone.name=Aridstone
 tile.flabyss:aridstone_bricks.name=Aridstone Bricks
@@ -14,6 +16,8 @@ tile.flabyss:cracked_aridstone_bricks.name=Cracked Aridstone Bricks
 tile.flabyss:chiseled_aridstone_bricks.name=Chiseled Aridstone Bricks
 
 tile.flabyss:rimenium.name=Rimenium
+tile.flabyss.smooth_rimenium.name=Smooth Rimenium
 
 ## ENTITIES
-item.spawn_egg.entity.flabyss:wither_skeleton_archer.name=Wither Skeleton Archer
+item.spawn_egg.entity.flabyss:wither_skeleton_archer.name=Spawn Wither Skeleton Archer
+item.spawn_egg.entity.flabyss:wither_skeleton_horse.name=Spawn Wither Skeleton Horse

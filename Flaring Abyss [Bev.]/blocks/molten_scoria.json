@@ -1,0 +1,54 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "flabyss:motlen_scoria"
+        },
+        "components": {
+            "minecraft:block_light_emission": 0.1,
+            "minecraft:destroy_time": 0.9,
+			"minecraft:unit_cube": {},
+			"minecraft:map_color": "#3A3B48",
+            "minecraft:breathability": "solid",
+			"minecraft:on_player_destroyed": {
+				"event": "on_break",
+				"condition": "query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_hoe') || query.get_equipped_item_name == 'wooden_hoe' || query.get_equipped_item_name == 'stone_hoe' || query.get_equipped_item_name == 'golden_hoe' || query.get_equipped_item_name == 'iron_hoe' || query.get_equipped_item_name == 'diamond_hoe' || query.get_equipped_item_name == 'netherite_hoe'"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "motlen_scoria",
+					"render_method": "opaque",
+					"ambient_occlusion": true,
+					"face_dimming": false
+				}
+            },
+            "minecraft:interact": {
+                "condition": "query.get_equipped_item_name(0)=='bucket'",
+                "event": "on_interact"
+            },
+            "tag:sponge": {},
+            "tag:scoria": {}
+		},
+		"events": {
+			"on_break": {
+				"sequence": [
+					{
+						"spawn_loot": {
+							"table": "loot_tables/blocks/motlen_scoria.json"
+						}
+					}
+				]
+            },
+            "on_interact": {
+                "sequence": [
+                    {
+                        "run_command": [
+                            "setblock ~~~~ flabyss:scoria",
+                            "replaceitem entity @p slot.weapon.mainhand 0 lava_bucket"
+                        ]
+                    }
+                ]
+            }
+		}
+    }
+}

@@ -13,7 +13,7 @@
             },
             "minecraft:render_offsets": "bone",
             "minecraft:display_name": {
-                "value": "item.flabyss:withered_bone.name"
+                "value": "Withered Bone"
             },
             "minecraft:creative_category": {
 				"parent": "itemGroup.name.bone"

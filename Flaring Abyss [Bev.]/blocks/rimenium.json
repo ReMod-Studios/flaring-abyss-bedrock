@@ -7,7 +7,8 @@
         "components": {
             "minecraft:block_light_emission": 0.1,
             "minecraft:destroy_time": 0.75,
-            "minecraft:unit_cube": {},
+			"minecraft:unit_cube": {},
+			"minecraft:map_color": "#E884FF",
             "minecraft:breathability": "solid",
 			"minecraft:on_player_destroyed": {
 				"event": "on_break",

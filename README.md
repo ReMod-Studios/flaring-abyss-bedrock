@@ -11,7 +11,7 @@ Flaring Abyss is a Minecraft Mod/Addon Project which aims to expand the Nether b
 - Wither Skeletons use Stygian Swords
 - Wither Skeletons have melee and ranged variants
 
- **Biomes:**
+**Biomes:**
 - Soulsand Valley have soul puddles
 - Soul Diamond Ore
 - Basalt Iron Ore
