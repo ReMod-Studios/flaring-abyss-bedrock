@@ -16,7 +16,7 @@
 				}
 			},
 			"minecraft:mining_speed": 1,
-			"minecraft:damage": 2,
+			"minecraft:damage": 4,
 			"minecraft:enchantable": {
 				"value": 14,
 				"slot": "pickaxe"
