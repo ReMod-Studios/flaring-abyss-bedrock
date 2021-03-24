@@ -19,6 +19,9 @@
 				"textures/blocks/soul_gas"
 			]
 		},
+
+
+
 		"wiltslate": {
 			"textures": [
 				"textures/blocks/wiltslate"
@@ -29,6 +32,17 @@
 				"textures/blocks/wiltslate_bricks"
 			]
 		},
+		"cracked_wiltslate_bricks": {
+			"textures": [
+				"textures/blocks/cracked_wiltslate_bricks"
+			]
+		},
+		"chiseled_wiltslate_bricks": {
+			"textures": [
+				"textures/blocks/chiseled_wiltslate_bricks"
+			]
+		},
+
 		"aridstone": {
 			"textures": [
 				"textures/blocks/aridstone"
@@ -49,8 +63,27 @@
 				"textures/blocks/chiseled_aridstone_bricks"
 			]
 		},
+
 		"rimenium": {
-			"textures": "textures/blocks/rimenium"
+			"textures": [
+				"textures/blocks/rimenium"
+			]
+		},
+		"smooth_rimenium": {
+			"textures": [
+				"textures/blocks/smooth_rimenium"
+			]
+		},
+
+		"scoria": {
+			"textures": [
+				"textures/block/scoria"
+			]
+		},
+		"molten_scoria": {
+			"textures": [
+				"textures/block/molten_scoria"
+			]
 		}
 	}
 }
