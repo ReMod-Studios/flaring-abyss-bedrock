@@ -25,7 +25,7 @@
 			"minecraft:digger": {
 				"use_efficiency": false,
 				"on_dig": {
-					"event": "on_dig"
+					"event": "on_tool_used"
 				}
 			},
 			"minecraft:weapon": {
@@ -59,7 +59,7 @@
 					"amplifier": 1
 				}
 			},
-			"on_dig": {
+			"on_tool_used": {
 				"damage": {
 					"type": "durability",
 					"amount": 1,
