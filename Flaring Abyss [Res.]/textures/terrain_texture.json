@@ -80,9 +80,9 @@
 				"textures/block/scoria"
 			]
 		},
-		"molten_scoria": {
+		"soaked_scoria": {
 			"textures": [
-				"textures/block/molten_scoria"
+				"textures/block/soaked_scoria"
 			]
 		}
 	}

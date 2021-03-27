@@ -41,7 +41,7 @@
 						"run_command": {
 							"command": [
 								"structure load flabyss:scoria_sponge ~-3 ~-3 ~-3",
-								"setblock ~~~ flabyss:molten_scoria"
+								"setblock ~~~ flabyss:soaked_scoria"
 							]
 						}
 					},

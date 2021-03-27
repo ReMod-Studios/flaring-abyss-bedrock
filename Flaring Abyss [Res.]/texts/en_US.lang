@@ -18,6 +18,9 @@ tile.flabyss:chiseled_aridstone_bricks.name=Chiseled Aridstone Bricks
 tile.flabyss:rimenium.name=Rimenium
 tile.flabyss.smooth_rimenium.name=Smooth Rimenium
 
+tile.flabyss:scoria.name=Scoria
+tile.flabyss:soaked_scoria.name=Soaked Scoria
+
 ## ENTITIES
 item.spawn_egg.entity.flabyss:wither_skeleton_archer.name=Spawn Wither Skeleton Archer
 item.spawn_egg.entity.flabyss:wither_skeleton_horse.name=Spawn Wither Skeleton Horse

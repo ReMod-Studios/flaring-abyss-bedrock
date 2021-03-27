@@ -1,21 +1,75 @@
 {
   "format_version": [1, 1, 0],
-  "flabyss:wiltslate": {
-    "sound": "nether_brick"
-  },
-  "flabyss:wiltslate_bricks": {
-    "sound": "nether_brick"
-  },
+
   "flabyss:soul_gas": {
-    "sound": "sand"
+    "sound": "sand",
+    "textures": "soul_gas"
   },
   "flabyss:soul_diamond_ore": {
-    "sound": "soul_sand"
+    "sound": "soul_sand",
+    "textures": "soul_diamond_ore"
   },
+  "flabyss:basalt_iron_ore": {
+    "sound": "basalt",
+    "textures": {
+      "up": "basalt_top",
+      "side": "basalt_iron_ore",
+      "down": "basalt_top"
+    }
+  },
+
+
+
+  "flabyss:wiltslate": {
+    "sound": "nether_brick",
+    "textures": "wiltslate"
+  },
+  "flabyss:wiltslate_bricks": {
+    "sound": "nether_brick",
+    "textures": "wiltslate_bricks"
+  },
+  "flabyss:cracked_wiltslate_bricks": {
+    "sound": "nether_brick",
+    "textures": "cracked_wiltslate_bricks"
+  },
+  "flabyss:chiseled_wiltslate_bricks": {
+    "sound": "nether_brick",
+    "textures": "chiseled_wiltslate_bricks"
+  },
+
+
   "flabyss:aridstone": {
-    "sound": "basalt"
+    "sound": "stone",
+    "textures": "aridstone"
   },
-  "rimenium": {
-    "sound": "glass"
+  "flabyss:aridstone_bricks": {
+    "sound": "stone",
+    "textures": "aridstone_bricks"
+  },
+  "flabyss:cracked_aridstone": {
+    "sound": "stone",
+    "textures": "cracked_aridstone_bricks"
+  },
+  "flabyss:chiseled_aridstone": {
+    "sound": "stone",
+    "textures": "chiseled_aridstone_bricks"
+  },
+
+
+  "flabbys:rimenium": {
+    "sound": "glass",
+    "textures": "rimenium"
+  },
+  "flabbys:smooth_rimenium": {
+    "sound": "glass",
+    "textures": "smooth_rimenium"
+  },
+  "flabyss:scoria": {
+    "sound": "coral_fan",
+    "textures": "scoria"
+  },
+  "flabyss:soaked_scoria": {
+    "sound": "coral_fan",
+    "textures": "soaked_scoria"
   }
 }

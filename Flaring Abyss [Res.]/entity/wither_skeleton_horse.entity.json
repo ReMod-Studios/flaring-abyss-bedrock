@@ -7,7 +7,7 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entities/withered_skeleton_horse"
+				"default": "textures/entities/wither_skeleton_horse"
 			},
 			"geometry": {
 				"default": "geometry.horse"
