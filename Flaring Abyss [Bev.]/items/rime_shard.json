@@ -2,7 +2,7 @@
     "format_version": "1.16.100",
     "minecraft:item": {
         "description": {
-            "identifier": "flabyss:crystal_meth",
+            "identifier": "flabyss:rime_shard",
             "category": "Nature"
         },
 		"components": {
@@ -18,10 +18,10 @@
 				}
 			},
 			"minecraft:icon": {
-				"texture": "crystal_meth"
+				"texture": "rime_shard"
 			},
 			"minecraft:display_name": {
-				"value": "Crystal Mеth"
+				"value": "Rime Shard"
 			},
 			"minecraft:creative_category": {
 				"parent": "itemGroup.name.miscFood"
