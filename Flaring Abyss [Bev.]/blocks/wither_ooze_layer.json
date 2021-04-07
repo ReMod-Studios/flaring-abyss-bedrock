@@ -1,0 +1,45 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "flabyss:wither_ooze_layer",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 1.0,
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 1,
+			"minecraft:flammable": {
+				"burn_odds": 0,
+				"flame_odds": 0
+			},
+			"minecraft:friction": 0.5,
+			"minecraft:explosion_resistance": 2.5,
+			"minecraft:map_color": "#1D270F",
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:geometry": "geometry.ooze_block",
+			"minecraft:breathability": "solid",
+			"minecraft:breakonpush": false,
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wither_ooze_layer",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					1,
+					16
+				]
+			},
+			"tag:ooze": {}
+		}
+	}
+}

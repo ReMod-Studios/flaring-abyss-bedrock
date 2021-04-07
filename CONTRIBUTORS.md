@@ -5,6 +5,7 @@
 - BonnieTheBunny
 - moony
 - OliviaTheVampire
+- DeathByAutoscroll (Epic Duck Person)
 
 **Code (Mod/Addon Development Backend):**
 - LePichu

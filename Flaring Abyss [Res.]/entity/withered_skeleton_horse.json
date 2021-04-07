@@ -1,0 +1,29 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "flabyss:withered_skeleton_horse",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entities/withered_skeleton_horse"
+			},
+			"geometry": {
+				"default": "geometry.horse"
+			},
+			"animations": {},
+			"scripts": {
+				"animate": {}
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#313131",
+				"overlay_color": "#583D3D"
+			}
+		}
+	}
+}

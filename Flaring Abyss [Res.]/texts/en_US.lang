@@ -9,6 +9,7 @@ tile.flabyss:wiltslate.name=Wiltslate
 tile.flabyss:wiltslate_bricks.name=Wiltslate Bricks
 tile.flabyss:cracked_wiltslate_bricks.name=Cracked Wiltslate Bricks
 tile.flabyss:chiseled_wiltslate_bricks.name=Chiseled Wiltslate Bricks
+tile.flabyss:wither_ooze_layer.name=Wither Ooze Layer
 
 tile.flabyss:aridstone.name=Aridstone
 tile.flabyss:aridstone_bricks.name=Aridstone Bricks
@@ -24,3 +25,7 @@ tile.flabyss:soaked_scoria.name=Soaked Scoria
 ## ENTITIES
 item.spawn_egg.entity.flabyss:wither_skeleton_archer.name=Spawn Wither Skeleton Archer
 item.spawn_egg.entity.flabyss:wither_skeleton_horse.name=Spawn Wither Skeleton Horse
+item.spawn_egg.entity.flabyss:wither_snail.name=Spawn Wither Snail
+
+## MISC
+action.interact.ride.snail=Ride Snail~!
