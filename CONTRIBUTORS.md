@@ -2,6 +2,7 @@
 **Assets (Models, Textures, Sounds, Animations):**
 - Bluefox (Sambhav Arora)
 - LePichu
+- Aerod
 - BonnieTheBunny
 - moony
 - OliviaTheVampire
@@ -15,4 +16,3 @@
 - Bluefox (Sambhav Arora)
 
 > # Finally, Special Thanks to ReMod Studios for making this project again.
-
