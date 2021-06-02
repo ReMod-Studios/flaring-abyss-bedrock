@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "flabyss:toxic_sting_entity",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/items/toxic_stinger"
+			},
+			"geometry": {
+				"default": "geometry.throwable_item"
+			},
+			"animations": {
+				"idle": "animation.throwable_item.toxic_sting.fly"
+			},
+			"scripts": {
+				"animate": [
+					"idle"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			]
+		}
+	}
+}

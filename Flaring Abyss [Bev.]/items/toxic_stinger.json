@@ -14,7 +14,7 @@
 				"do_swing_animation": true
 			},
 			"minecraft:projectile": {
-				"projectile_entity": "flabyss:toxic_stinger"
+				"projectile_entity": "flabyss:toxic_sting_entity"
 			},
 			"minecraft:icon": {
 				"texture": "toxic_stinger"

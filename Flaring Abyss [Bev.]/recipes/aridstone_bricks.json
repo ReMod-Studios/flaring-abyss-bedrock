@@ -1,0 +1,26 @@
+{
+    "format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "flabyss:aridstone_bricks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+            "##",
+            "##"
+		],
+		"key": {
+			"#": {
+				"item": "flabyss:aridstone"
+			}
+		},
+		"result": [
+			{
+                "item": "flabyss:aridstone_bricks",
+			    "count": 4
+            }
+        ]
+	}
+}

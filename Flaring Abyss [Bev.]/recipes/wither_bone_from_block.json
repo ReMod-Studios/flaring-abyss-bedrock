@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "flabyss:wither_bone_from_block"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "flabyss:wither_bone_block"
+			}
+		},
+		"result": [
+			{
+                "item": "flabyss:wither_bone",
+			    "count": 9
+            }
+        ]
+	}
+}

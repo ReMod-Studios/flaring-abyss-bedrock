@@ -9,6 +9,15 @@
 					"rotation": ["q.life_time * 36 + q.modified_movement_speed / 3.6", 0, 0] 
 				}
 			}
+		},
+		"animation.throwable_item.toxic_sting.fly": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"main": {
+					"rotation": [45, -180, 0] 
+				}
+			}
 		}
 	}
 }

@@ -1,0 +1,26 @@
+{
+    "format_version": "1.16.100",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "flabyss:wiltslate_bricks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+            "##",
+            "##"
+		],
+		"key": {
+			"#": {
+				"item": "flabyss:wiltslate"
+			}
+		},
+		"result": [
+			{
+                "item": "flabyss:wiltslate_bricks",
+			    "count": 4
+            }
+        ]
+	}
+}
