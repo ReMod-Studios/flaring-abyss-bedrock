@@ -1,0 +1,49 @@
+{
+    "format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "flabyss:wither_bone_block"
+		},
+		"components": {
+			"minecraft:destroy_time": 10,
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 1,
+			"minecraft:map_color": "#585858",
+			"minecraft:flammable": {
+				"burn_odds": 0,
+				"flame_odds": 0
+			},
+			"minecraft:friction": 0.5,
+			"minecraft:explosion_resistance": 2.5,
+			"minecraft:loot": "loot_tables/blocks/wither_bone_block.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "wither_bone_block_side",
+					"render_method": "opaque"
+                },
+                "up": {
+                    "texture": "wither_bone_block_top"
+                },
+                "down": {
+                    "texture": "wither_bone_block_top"
+                }
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:on_player_destroyed": {
+				"event": "on_break",
+				"condition": "!query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_pickaxe')"
+            },
+            "tag:flabyss": {},
+			"tag:stone": {}
+		},
+		"events": {
+			"on_break": {
+				"run_command": {
+                    "command": [
+                        "kill @e[type=item, r=1]"
+                    ]
+                }
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+    "format_version": "1.16.100",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "flabyss:furnace_snail_meat"
+		},
+		"tags": [
+			"furnace",
+			"smooker"
+		],
+		"input": "flabyss:snail_meat",
+		"output": "flabyss:cooked_snail_meat"
+	}
+}

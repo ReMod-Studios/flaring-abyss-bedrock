@@ -1,0 +1,43 @@
+{
+    "format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "flabyss:aridstone"
+		},
+		"components": {
+			"minecraft:destroy_time": 7.5,
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 1,
+			"minecraft:map_color": "#EA925C",
+			"minecraft:flammable": {
+				"burn_odds": 0,
+				"flame_odds": 0
+			},
+			"minecraft:friction": 0.5,
+			"minecraft:explosion_resistance": 2.5,
+			"minecraft:loot": "loot_tables/blocks/aridstone.json",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "aridstone",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:on_player_destroyed": {
+				"event": "on_break",
+				"condition": "!query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_pickaxe')"
+            },
+            "tag:flabyss": {},
+			"tag:stone": {}
+		},
+		"events": {
+			"on_break": {
+				"run_command": {
+                    "command": [
+                        "kill @e[type=item, r=1]"
+                    ]
+                }
+			}
+		}
+	}
+}

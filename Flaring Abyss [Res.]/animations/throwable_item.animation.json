@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.throwable_item.sycthe.fly": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"main": {
+					"rotation": ["q.life_time * 36 + q.modified_movement_speed / 3.6", 0, 0] 
+				}
+			}
+		}
+	}
+}

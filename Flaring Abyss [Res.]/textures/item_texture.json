@@ -2,6 +2,65 @@
 	"resource_pack_name": "bridgeRP",
 	"texture_name": "atlas.items",
 	"texture_data": {
+		"wither_bone": {
+			"textures": [
+				"textures/items/wither_bone"
+			]
+		},
+		"glowing_marrow": {
+			"textures": [
+				"textures/items/glowing_marrow"
+			]
+		},
+		"scythe": {
+			"textures": [
+				"textures/items/scythe"
+			]
+		},
+		"snail_meat": {
+			"textures": [
+				"textures/items/snail_meat"
+			]
+		},
+		"cooked_snail_meat": {
+			"textures": [
+				"textures/items/cooked_snail_meat"
+			]
+		},
 
+		
+
+		"toxic_stinger": {
+			"textures": [
+				"textures/items/toxic_stinger"
+			]
+		},
+		"cockatrice_claw": {
+			"textures": [
+				"textures/items/cockatrice_claw"
+			]
+		},
+
+
+		"primordial_core": {
+			"textures": [
+				"textures/items/primordial_core"
+			]
+		},
+		"primordial_torch": {
+			"textures": [
+				"textures/items/primordial_torch"
+			]
+		},
+		"rusted_iron_ingot": {
+			"textures": [
+				"textures/items/rusted_iron_ingot"
+			]
+		},
+		"phoenix_feather": {
+			"textures": [
+				"textures/items/phoenix_feather"
+			]
+		}
 	}
 }

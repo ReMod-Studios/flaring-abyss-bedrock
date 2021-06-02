@@ -1,0 +1,60 @@
+pack.name=Flaring Abyss §c[Res.]
+pack.description=Проект, который стремится ещё дальше расширить Нижний мир!
+
+## Items
+item.flabyss:wither_bone=Кость иссушителя
+item.flabyss:glowing_marrow=Эссенция света
+item.flabyss:scythe=Коса
+item.flabyss:snail_meat=Мясо улитки
+item.flabyss:cooked_snail_meat=Жареное мясо улитки
+
+item.flabyss:toxic_stinger=Отравленное жало
+item.flabyss:cockatrice_claw=Коготь василиска
+
+item.flabyss:primordial_core=Первозданное ядро
+item.flabyss:primordial_torch=Первозданный факел
+item.flabyss:rusted_ingot=Ржавый слиток
+item.flabyss:phoenix_feather=Перо феникса
+
+## Blocks
+tile.flabyss:wither_bone_block.name=Блок костей иссушителя
+tile.flabyss:wither_ooze_block.name=Иссушающая жижа
+tile.flabyss:wiltslate.name=Увядший сланец
+tile.flabyss:wiltslate_slab.name=Плита из увядшего сланца
+tile.flabyss:wiltslate_stairs.name=Ступеньки из увядшего сланца
+tile.flabyss:wiltslate_bricks.name=Увядшесланцевые кирпичи
+tile.flabyss:wiltslate_bricks_slab.name=Плита из увядшесланцевых кирпичей
+tile.flabyss:wiltslate_bricks_stairs.name=Ступеньки из увядшесланцевых кирпичей
+tile.flabyss:wiltslate_bricks_wall.name=Увядшесланцевая кирпичная ограда
+tile.flabyss:polished_wiltslate.name=Полированный увядший сланец
+tile.flabyss:chiseled_wiltslate_bricks.name=Резные увядшесланцевые кирпичи
+
+tile.flabyss:nether_reactor_core.name=Ядро реактора Нижнего мира
+tile.flabyss:termite_mound_block.name=Блок термитового холма
+tile.flabyss:aridstone.name=Сухокамень
+tile.flabyss:aridstone_slab.name=Плита из сухокамня
+tile.flabyss:aridstone_stairs.name=Ступеньки из сухокамня
+tile.flabyss:aridstone_bricks.name=Сухокамневые Кирпичи
+tile.flabyss:aridstone_bricks_slab.name=Плита из сухокамневых кирпичей 
+tile.flabyss:aridstone_bricks_stairs.name=Ступеньки из сухокамневых кирпичей
+tile.flabyss:aridstone_bricks_wall.name=Сухокамневая кирпичная ограда
+tile.flabyss:polished_aridstone.name=Полированный сухокамень
+tile.flabyss:chiseled_aridstone_bricks.name=Резные сухокамневые кирпичи
+
+tile.flabyss:glowing_obsidian.name=Светящийся обсидиан
+tile.flabyss:mutation_totem.name=Тотем мутации
+tile.flabyss:decaying_netherack.name=Гниющий незерак
+tile.flabyss:rusted_metal_block.name=Блок ржавого металла
+tile.flabyss:phoenix_next_block.name=Блок гнезда феникса
+
+## Entities
+entity.flabyss:reaper_skeleton.name=Скелет-жнец
+entity.flabyss:lightbinger.name=Светоносный
+entity.flabyss:necromancer.name=Некромант
+entity.flabyss:wither_snail.name=Иссушающая улитка
+
+entity.flabyss:termite.name=Термит
+entity.flabyss:cockatrice.name=Василиск
+
+entity.flabyss:phoenix.name=Феникс
+entity.flabyss:geyser_hound.name=Огненная гончая

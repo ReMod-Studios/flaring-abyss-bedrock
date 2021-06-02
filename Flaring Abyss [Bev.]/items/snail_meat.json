@@ -1,0 +1,48 @@
+{
+    "format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "flabyss:snail_meat",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:food": {
+				"nutrition": 3,
+				"saturation_modifier": "low",
+				"on_consume": {
+					"event": "on_consume"
+				}
+			},
+			"minecraft:foil": false,
+			"minecraft:icon": {
+				"texture": "snail_meat"
+			},
+			"minecraft:render_offsets": "apple",
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.rawFood"
+			},
+			"tag:flabyss": {}
+		},
+		"events": {
+			"on_consume": {
+				"randomize": [
+					{
+						"weight": 2
+					},
+					{
+						"weight": 1,
+						"add_mob_effect": {
+							"effect": "wither",
+							"target": "holder",
+							"duration": 5,
+							"amplifier": 1
+						}
+					}
+				]
+			}
+		}
+	}
+}

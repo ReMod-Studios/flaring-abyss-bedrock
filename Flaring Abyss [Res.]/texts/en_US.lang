@@ -1,4 +1,4 @@
-pack.name=Flaring Abyss §c[Res.]
+pack.name=Flaring Abyss c[Res.]
 pack.description=A Project which aims to expand the Nether further!
 
 ## Items
@@ -8,7 +8,7 @@ item.flabyss:scythe=Scythe
 item.flabyss:snail_meat=Snail Meat
 item.flabyss:cooked_snail_meat=Cooked Snail Meat
 
-item.flabyss:toxic_sting=Toxic Stinger
+item.flabyss:toxic_stinger=Toxic Stinger
 item.flabyss:cockatrice_claw=Cockatrice Claw
 
 item.flabyss:primordial_core=Primordial Core
@@ -26,7 +26,7 @@ tile.flabyss:wiltslate_bricks.name=Wiltslate Bricks
 tile.flabyss:wiltslate_bricks_slab.name=Wiltslate Bricks Slab
 tile.flabyss:wiltslate_bricks_stairs.name=Wiltslate Bricks Stairs
 tile.flabyss:wiltslate_bricks_wall.name=Wiltslate Bricks Wall
-tile.flabyss:carved_wiltslate_bricks.name=Carved Wiltslate Bricks
+tile.flabyss:polished_wiltslate.name=Polished Wiltslate
 tile.flabyss:chiseled_wiltslate_bricks.name=Chiseled Wiltslate Bricks
 
 tile.flabyss:nether_reactor_core.name=Nether Reactor Core
@@ -38,19 +38,19 @@ tile.flabyss:aridstone_bricks.name=Aridstone Bricks
 tile.flabyss:aridstone_bricks_slab.name=Aridstone Bricks Slab
 tile.flabyss:aridstone_bricks_stairs.name=Aridstone Bricks Stairs
 tile.flabyss:aridstone_bricks_wall.name=Aridstone Bricks Wall
-tile.flabyss:carved_aridstone_bricks.name=Carved Aridstone Bricks
+tile.flabyss:polished_aridstone.name=Polished Aridstone
 tile.flabyss:chiseled_aridstone_bricks.name=Chiseled Aridstone Bricks
 
 tile.flabyss:glowing_obsidian.name=Glowing Obsidian
 tile.flabyss:mutation_totem.name=Mutation Totem
 tile.flabyss:decaying_netherack.name=Decaying Netherack
-tile.flabyss:rusted_metal_block.name=Rusted Metal BlocK
+tile.flabyss:rusted_metal_block.name=Rusted Metal Block
 tile.flabyss:phoenix_next_block.name=Phoenix Nest Block
 
 ## Entities
 entity.flabyss:reaper_skeleton.name=Reaper Skeleton
 entity.flabyss:lightbinger.name=Lightbinger
-entity.flabyss:necromancer.name=Necromance
+entity.flabyss:necromancer.name=Necromancer
 entity.flabyss:wither_snail.name=Wither Snail
 
 entity.flabyss:termite.name=Termite
@@ -58,3 +58,18 @@ entity.flabyss:cockatrice.name=Cockatrice
 
 entity.flabyss:phoenix.name=Phoenix
 entity.flabyss:geyser_hound.name=Geyser Hound
+
+## MISC AND ENTITY EGGS
+action.interact.ride.snail=Ride Snail~!
+
+
+item.spawn_egg.entity.flabyss:reaper_skeleton.name=Spawn Reaper Skeleton
+item.spawn_egg.entity.flabyss:lightbinger.name=Spawn Lightbinger
+item.spawn_egg.entity.flabyss:necromancer.name=Spawn Necromancer
+item.spawn_egg.entity.flabyss:wither_snail.name=Spawn Wither Snail
+
+item.spawn_egg.entity.flabyss:termite.name=Spawn Termite
+item.spawn_egg.entity.flabyss:cockatrice.name=Spawn Cockatrice
+
+item.spawn_egg.entity.flabyss:phoenix.name=Spawn Phoenix
+item.spawn_egg.entity.flabyss:geyser_hound.name=Spawn Geyser Hound

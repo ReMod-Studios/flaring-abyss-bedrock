@@ -1,0 +1,60 @@
+pack.name=Flaring Abyss §c[Res.]
+pack.description=Проект, який прагне ще далі розширити Нижній світ!
+
+## Items
+item.flabyss:wither_bone=Кістка висушувача
+item.flabyss:glowing_marrow=Есенція світла
+item.flabyss:scythe=Коса
+item.flabyss:snail_meat=М'ясо равлика
+item.flabyss:cooked_snail_meat=Смажене м'ясо равлика
+
+item.flabyss:toxic_stinger=Отруєне жало
+item.flabyss:cockatrice_claw=Кіготь василіска
+
+item.flabyss:primordial_core=Первозданне ядро
+item.flabyss:primordial_torch=Первозданний смолоскип
+item.flabyss:rusted_ingot=Іржавий злиток
+item.flabyss:phoenix_feather=Перо фенікса
+
+## Blocks
+tile.flabyss:wither_bone_block.name=Блок кісток висушувача
+tile.flabyss:wither_ooze_block.name=Висушуюча жижа
+tile.flabyss:wiltslate.name=В'ялосланець
+tile.flabyss:wiltslate_slab.name=Плита з в'ялосланцю
+tile.flabyss:wiltslate_stairs.name=Сходи з в'ялосланцю
+tile.flabyss:wiltslate_bricks.name=В'ялосланцева цегла
+tile.flabyss:wiltslate_bricks_slab.name=Плита з в'ялосланцевої цегли
+tile.flabyss:wiltslate_bricks_stairs.name=Сходи з в'ялосланцевої цегли
+tile.flabyss:wiltslate_bricks_wall.name=Стінка з в'ялосланцевої цегли
+tile.flabyss:polished_wiltslate.name=Полірований в'ялосланець
+tile.flabyss:chiseled_wiltslate_bricks.name=Вирізана в'ялосланцева цегла
+
+tile.flabyss:nether_reactor_core.name=Ядро реактора Нижнего мира
+tile.flabyss:termite_mound_block.name=Блок термітового пагорба
+tile.flabyss:aridstone.name=Сухокамінь
+tile.flabyss:aridstone_slab.name=Плита з сухокаменю
+tile.flabyss:aridstone_stairs.name=Сходи з сухокаменю
+tile.flabyss:aridstone_bricks.name=Сухокамнева цегла
+tile.flabyss:aridstone_bricks_slab.name=Плита з сухокаменевої цегли
+tile.flabyss:aridstone_bricks_stairs.name=Сходи з сухокаменевої цегли
+tile.flabyss:aridstone_bricks_wall.name=Стінка з сухокаменевої цегли
+tile.flabyss:polished_aridstone.name=Полірований сухокамінь
+tile.flabyss:chiseled_aridstone_bricks.name=Вирізана сухокамнева цегла
+
+tile.flabyss:glowing_obsidian.name=Обсидіан, що світиться
+tile.flabyss:mutation_totem.name=Тотем мутації
+tile.flabyss:decaying_netherack.name=Гниючий незерак
+tile.flabyss:rusted_metal_block.name=Блок іржавого метала
+tile.flabyss:phoenix_next_block.name=Блок гнізда фенікса
+
+## Entities
+entity.flabyss:reaper_skeleton.name=Скелет-жнець
+entity.flabyss:lightbinger.name=Слітлоносний
+entity.flabyss:necromancer.name=Некромант
+entity.flabyss:wither_snail.name=Висушуючий равлик
+
+entity.flabyss:termite.name=Терміт
+entity.flabyss:cockatrice.name=Василіск
+
+entity.flabyss:phoenix.name=Фенікс
+entity.flabyss:geyser_hound.name=Вогняний гончак

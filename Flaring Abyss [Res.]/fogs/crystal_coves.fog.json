@@ -1,0 +1,16 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:fog_settings": {
+        "description": {
+            "identifier": "flabyss:crystal_coves"
+        },
+        "distance": {
+            "air":{
+                "fog_color": "#eea9e8",
+                "fog_start": 10,
+                "fog_end": 40,
+                "render_distance_type": "fixed"
+            }
+        }
+    }
+}
