@@ -1,3 +1,25 @@
 {
-  "format_version": [1, 1, 0]
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "flabyss:wiltslate": {
+        "sound": "nether_brick"
+    },
+    "flabyss:wiltslate_bricks": {
+        "sound": "nether_brick"
+    },
+    "flabyss:wither_bone_block": {
+        "sound": "bone_block"
+    },
+    "flabyss:aridstone": {
+        "sound": "stone"
+    },
+    "flabyss:aridstone_bricks": {
+        "sound": "stone"
+    },
+    "flabyss:termite_mound_block": {
+        "sound": "ancient_debris"
+    }
 }
