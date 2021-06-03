@@ -2,7 +2,14 @@
     "format_version": "1.16.100",
 	"minecraft:block": {
 		"description": {
-			"identifier": "flabyss:wither_bone_block"
+			"identifier": "flabyss:wither_bone_block",
+			"properties": {
+				"endless:rotation": [
+					0, 
+					1, 
+					2
+				]
+			}
 		},
 		"components": {
 			"minecraft:destroy_time": 10,
@@ -29,21 +36,62 @@
                 }
 			},
 			"minecraft:unit_cube": {},
+			"minecraft:on_player_placing": {
+				"event": "on_player_placing"
+			},
 			"minecraft:on_player_destroyed": {
 				"event": "on_break",
 				"condition": "!query.equipped_item_any_tag('slot.weapon.mainhand', 'minecraft:is_pickaxe')"
             },
-            "tag:flabyss": {},
+			"tag:flabyss": {},
+			"tag:bone": {},
 			"tag:stone": {}
 		},
 		"events": {
+			"on_player_placing": {
+				"set_block_property": {
+					"endless:rotation": "math.floor(q.block_face / 2.0)"
+				}
+			},
 			"on_break": {
 				"run_command": {
                     "command": [
-                        "kill @e[type=item, r=1]"
+                        "setblock ~~~ flabyss:item_deleter"
                     ]
                 }
 			}
-		}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_property('endless:rotation') == 0",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "q.block_property('endless:rotation') == 1",
+				"components": {
+					"minecraft:rotation": [
+						90,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "q.block_property('endless:rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						90
+					]
+				}
+			}
+		]
 	}
 }

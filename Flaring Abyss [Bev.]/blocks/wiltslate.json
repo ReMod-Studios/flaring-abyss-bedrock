@@ -34,7 +34,7 @@
 			"on_break": {
 				"run_command": {
                     "command": [
-                        "kill @e[type=item, r=1]"
+                        "setblock ~~~ flabyss:item_deleter"
                     ]
                 }
 			}

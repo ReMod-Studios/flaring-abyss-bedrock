@@ -1,0 +1,87 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "flabyss:item_deleter",
+            "properties": {
+                "flabyss:counter": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "components": {
+            "minecraft:destroy_time": 0,
+            "minecraft:block_light_emission": 0,
+            "minecraft:block_light_absorption": 0,
+            "minecraft:map_color": "#000000",
+            "minecraft:flammable": {
+                "burn_odds": 0,
+                "flame_odds": 0
+            },
+            "minecraft:friction": 0.5,
+            "minecraft:explosion_resistance": 0,
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "blank_block",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:unit_cube": {},
+            "minecraft:on_player_destroyed": {
+                "event": "on_break"
+            },
+            "minecraft:ticking": {
+                "range": [
+                    0,
+                    0
+                ],
+                "looping": true,
+                "on_tick": {
+                    "event": "on_break"
+                }
+            },
+            "tag:flabyss": {},
+            "minecraft:entity_collision": false,
+            "minecraft:pick_collision": false,
+            "tag:stone": {}
+        },
+        "events": {
+            "on_break": {
+                "run_command": {
+                    "command": [
+                        "kill @e[type=item, r=2]"
+                    ]
+                },
+                "set_block_property": {
+                    "flabyss:counter": "q.block_property('flabyss:counter') + 1"
+                }
+            },
+            "test_event": {
+                "run_command": {
+                    "command": [
+                        "setblock ~~~ air"
+                    ]
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_property('flabyss:counter') == 1",
+                "components": {
+                    "minecraft:ticking": {
+                        "on_tick": {
+                            "event": "test_event"
+                        },
+                        "looping": false,
+                        "range": [
+                            0,
+                            0
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}
