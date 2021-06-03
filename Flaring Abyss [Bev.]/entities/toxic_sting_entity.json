@@ -16,27 +16,24 @@
 			"minecraft:projectile": {
 				"on_hit": {
 					"impact_damage": {
-						"damage": 3,
+						"damage": 6,
 						"knockback": true,
-						"destroy_on_hit": true
+						"destroy_on_hit": true,
+						"definition_event": {
+							"event_trigger": {
+								"event": "flabyss:post_hit"
+							}
+						}
 					},
-					"remove_on_hit": {},
-					"mob_effect": {
-						"effect": "fatal_poison",
-						"duration": 5,
-						"amplifier": 0,
-						"duration_easy": 3,
-						"duration_normal": 5,
-						"duration_hard": 7
-					}
+					"remove_on_hit": {}
 				},
 				"anchor": 1,
-				"power": 1.5,
+				"power": 2.0,
 				"gravity": 0.03,
 				"angle_offset": 0,
 				"offset": [
 					0,
-					-0.1,
+					0.1,
 					0
 				]
 			},
@@ -44,12 +41,14 @@
 			"minecraft:pushable": {
 				"is_pushable": true,
 				"is_pushable_by_piston": true
-			},
-			"minecraft:conditional_bandwidth_optimization": {
-				"default_values": {
-					"max_optimized_distance": 100,
-					"max_dropped_ticks": 5,
-					"use_motion_prediction_hints": true
+			}
+		},
+		"events": {
+			"flabyss:post_hit": {
+				"run_command": {
+					"command": [
+						"effect @e[r=1, c=1] fatal_poison 1 1 true"
+					]
 				}
 			}
 		}

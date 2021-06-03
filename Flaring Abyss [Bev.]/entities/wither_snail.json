@@ -24,6 +24,9 @@
 				"width": 0.8,
 				"height": 1
 			},
+			"minecraft:scale": {
+				"value": 2
+			},
 			"minecraft:health": {
 				"value": 16,
 				"max": 16
