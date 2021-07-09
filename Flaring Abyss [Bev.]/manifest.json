@@ -24,6 +24,16 @@
 				0,
 				0
 			]
+		},
+		{
+			"type": "javascript",
+			"entry": "scripts/Main.js",
+			"uuid": "b2016a3b-2d84-44f3-9855-873ec20e5818",
+			"version": [
+				1,
+				0,
+				0
+			]
 		}
 	],
 	"dependencies": [
